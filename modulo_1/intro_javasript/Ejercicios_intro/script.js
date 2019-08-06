@@ -77,3 +77,6 @@ alert(edad);
 document.write(nombre);
 document.write(ciudad);
 document.write(edad);
+
+
+
