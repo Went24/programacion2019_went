@@ -1,7 +1,8 @@
-alert("Bienvenido al Banco Ladronal. Serios al 100% real no feik");
+alert("Bienvenido al Banco UNIBANK! ");
 
 alert("Seleccione su idioma:");
 
+/*
 var idioma = {
     es: "Español",
     en: "English",
@@ -15,20 +16,22 @@ while(idioma.length !== 4) {
     1-Español
     2-English
     3-Francais
+    4-Italiano
     4-Russian`);
 }
+*/
 
 
 
 
 var cliente = {
-    nombre: "Criss",
-    apellido: "Nuñez",
-    edad: 21,
+    nombre: "Wentchelle",
+    apellido: "Antoine",
+    edad: 24,
     balance: 9999999,
     tarjeta: 21241203,
-    pin: 0021,
-    tipoCuenta: "Millonaria papi",
+    pin: 2423,
+    tipoCuenta: "Debit",
 }
 
 
@@ -64,7 +67,10 @@ while(pin.length > 4) {
 
 // 3. Mostrar opciones
 // 4. Seleccionar opción
-var opcion = prompt(`Seleccione una opción: 
+// validar que el usuario solo pueda digitar las opciones
+while(opcion > 4 || opcion < 1) {
+}
+ opcion = prompt(`Seleccione una opción: 
 1-Retiro
 2-Avance
 3-Chequear
@@ -97,7 +103,7 @@ else {
 */
 
 // 10. Mostrar mensaje de retirar dineo
-alert("Retira tu dinero perro");
+alert("Retira tu dinero");
 
 // 11. Mostrar mensaje de retirar tarjeta
-alert("Retitura tu pinchi tajeta");
+alert("Retira tu tajeta");
