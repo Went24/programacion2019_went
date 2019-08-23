@@ -51,14 +51,37 @@
                         $suma = $num1 + $num2;
                         echo "<div>Resultado de la suma. $num1 + $num2 = $suma</div>";
                     }
+
+                    if ($opcion == 2){
+                        $resta = $resta1 - $resta2;
+                        echo "<div>Resultado de la resta. $num1 - $num2 = $resta</div>";
                 }
-                echo "<pre>";
-                print_r($_POST);
-                echo "</pre>";
+
+
+              if ($opcion == 3){
+                        $multiplication = $multi1 * $multi2;
+                        echo "<div>Resultado de la multiplication. $num1 * $num2 = $multiplication</div>";
+                }
+
+
+
+
+                 if ($opcion == 4){
+                        $division = $div1 / $div2;
+                        echo "<div>Resultado de la division. $num1 / $num2 = $division</div>";
+                }
+
+            }
+
+
+
                 
                 ?>
+
             </div>
         </div>
+    </div>
+    </div>
     </div>
     
 </body>
